@@ -4,8 +4,223 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>retro forum</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.13/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-section{
+            background-image: url(images/bgbanner.png);
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    
+    <!-- header section -->
+    <header class="container mx-auto px-14 mt-14">
+        <!-- nav bar -->
+        <nav class="flex justify-between">
+            <h3 class="text-4xl text-[#12132D] font-black">JeTro</h3>
+            <div class="flex gap-4">
+                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                    <img src="images/Frame (2).svg" alt="">
+                </div>
+                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                    <img src="images/Frame (3).svg" alt="">
+                </div>
+                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                    <img src="images/Frame (4).svg" alt="">
+                </div>
+                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                    <img src="images/Frame (5).svg" alt="">
+                </div>
+                <button class="btn bg-[#797DFC] rounded-[3rem] px-10 text-[white]">Sign In</button>
+            </div>
+        </nav>
+        <!-- banner section -->
+         <section class="bg-section bg-no-repeat bg-bottom   bg-[#12132D] h-[550px] mt-12 rounded-3xl flex justify-center items-center gap-36 p-24 ">
+            <div class="w-1/2 space-y-6">
+                <h3 class="text-6xl font-black text-[white]">Welcome to the <span class="text-[#797DFC]">JeTro</span> Forum</h3>
+                <p class="text-xl text-[#FFFFFFCC] font-medium">Share your favorite opinion and win and wp forum coffee mug!</p>
+                <div class="bg-[white] rounded-full w-3/4 flex justify-between p-1">
+                    <input type="text" placeholder="Type here" class="input rounded-l-full" />
+                    <button class="bg-[#797DFC] text-[white] font-medium text-xl px-5 rounded-full py-1 ">Search</button>
+                </div>
+            </div>
+            <div class="bg-[white] text-[#12132DCC] text-xl font-medium p-10 rounded-[2rem] space-y-6 h-3/4">
+                <div class="flex justify-between gap-10">
+                    <p>Registered Users</p>
+                    <p>01</p>
+                </div>
+                <div class="flex justify-between gap-10">
+                    <p>Forum</p>
+                    <p>05</p>
+                </div>
+                <div class="flex justify-between gap-10">
+                    <p>Topics</p>
+                    <p>01</p>
+                </div>
+                <div class="flex justify-between gap-10">
+                    <p>Replies</p>
+                    <p>01</p>
+                </div>
+            </div>
+         </section>
+    </header>
+    <!-- main section -->
+    <main class="container mx-auto px-14">
+        <!-- discous section -->
+        <section class="mt-24 text-center">
+            <div>
+                <h3 class="text-[#12132D] text-4xl font-black">Let’s Discuss</h3>
+                <p class="text-base text-[#12132D99] font-normal">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            </div>
+            <div class="flex gap-6 mt-12 ">
+                    <!-- card section -->
+             <div class="bg-[#797DFC1A]  p-10 rounded-3xl flex gap-6">
+                <div>
+                    <div class="avatar online">
+                        <div class="w-24 rounded-full">
+                          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
+                      </div>
+                </div>
+                <div class="space-y-5">
+                    <div class="flex gap-5 text-base font-medium text-[#12132DCC]">
+                        <p># Music</p>
+                        <p>Author : Awlad Hossain</p>
+                    </div>
+                    <h3 class="text-xl text-[#12132D] font-bold">10 Kids Unaware of Their Halloween Costume</h3>
+                    <p class="text-base text-[#12132D99] font-normal">It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative</p>
+                    <hr>
+                    <div class="flex justify-between">
+                        <div class="flex gap-5 text-base text-[#12132D99] font-normal">
+                            <div class="flex">
+                                <img src="images/massage.svg" alt="">
+                                <p>560</p>
+                            </div>
+                            <div class="flex">
+                                <img src="images/eye.svg" alt="">
+                                <p>1,568</p>
+                            </div>
+                            <div class="flex">
+                                <img src="images/time.svg" alt="">
+                                <p>5 min</p>
+                            </div>
+                        </div>
+                        <div><img src="images/email 1.svg" alt=""></div>
+                    </div>
+                </div>
+             </div>
+             <!-- card title -->
+             <div class="p-6 bg-[#12132D0D] w-[25rem] rounded-3xl h-1/2 space-y-5">
+                <div class="flex justify-between">
+                    <h3 class="text-xl text-[#12132D] font-bold">Title</h3>
+                    <div class="flex gap-2">
+                        <img class="w-6 h-6" src="images/sucessmark.svg" alt="">
+                        <p class="text-base font-normal text-[#12132D99]">Mark read<span>(4)</span></p>
+                    </div>
+                </div>
+                <div class="flex justify-between bg-[white] p-3 rounded-3xl">
+                    <h3  class="text-base w-3/4 text-[#12132D] font-semibold">10 Kids Unaware of Their Halloween Costume</h3>
+                    <div class="flex items-center gap-1">
+                        <img class="w-5 h-5" src="images/eye.svg" alt="">
+                        <p class="text-base text-[#12132D99] font-normal">1,568</p>
+                    </div>
+                </div>
+             </div>
+            </div>
+
+        </section>
+        <!-- registration section -->
+         <section class="mt-28 bg-[#12132D] h-96 flex gap-14 justify-center items-center px-24 rounded-[2rem]">
+            <div class="space-y-7">
+                <h3 class="text-4xl text-[#FFFFFF] font-black">Join Our Forum</h3>
+                <p class="text-lg text-[#FFFFFFCC] font-normal ">Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and view the results directly within the app. </p>
+                <button class="bg-[#797DFC] text-xl text-[white] font-bold px-10 py-1 rounded-full">Registered Now</button>
+            </div>
+            <div>
+                <img src="images/joinforum.png" alt="">
+            </div>
+
+         </section>
+         <!-- Latest Posts section -->
+          <section class="mt-24 text-center">
+            <div>
+                <h3 class="text-[#12132D] text-4xl font-black">Latest Posts</h3>
+                <p class="text-base text-[#12132D99] font-normal">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+            </div>
+            <!-- cards section -->
+             <div class="mt-12">
+                <!-- card -->
+                <div class="card  w-96 border">
+                    <figure>
+                      <img
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="space-y-3 text-start p-6">
+                    <div class="flex gap-1 mt-4">
+                        <img class="w-6 h-6" src="images/date.svg" alt="">
+                        <p class="text-sm font-normal text-[#12132D99]">29 January 2024</p>
+                    </div>
+                      <h2 class="text-xl text-[#12132D] font-bold">What will a mars habitat force that impact in our daily life!!!</h2>
+                      <p class="text-base font-normal text-[#12132D99]">What will a mars habitat force that impact in our daily life!!!</p>
+                      <div class="flex gap-1">
+                        <img class="w-11 h-11" src="images/man.svg" alt="">
+                        <div class="">
+                            <h3 class="text-base text-[#12132D] font-bold">Cameron Williamson</h3>
+                            <p class="text-base font-normal text-[#12132D99]">Unknown</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+             </div>
+          </section>
+    </main>
+    <!-- footer section -->
+    <footer class="footer footer-center bg-[#F3F3F5] text-primary-content p-10 mt-28">
+        <aside>
+          <p class="font-black text-4xl text-[#12132D]">
+            ReTro
+          </p>
+          <p class="text-base text-[#12132DB2] font-normal w-3/4">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC</p>
+        </aside>
+        <nav>
+          <div class="grid grid-flow-col gap-4 text-[#12132D]">
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+              </svg>
+            </a>
+            <a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                class="fill-current">
+                <path
+                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </footer>
 </body>
 </html>
