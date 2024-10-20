@@ -17,20 +17,32 @@
     <!-- header section -->
     <header class="container mx-auto px-14 mt-14">
         <!-- nav bar -->
-        <nav class="flex justify-between">
+        <nav class="flex justify-between items-center">
             <h3 class="text-4xl text-[#12132D] font-black">JeTro</h3>
             <div class="flex gap-4">
-                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
-                    <img src="images/Frame (2).svg" alt="">
+                <div class="nav-title">
+                    <p class="-translate-y-1 hidden ">Home</p>
+                    <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex flex-col justify-center items-center">
+                        <img src="images/Frame (2).svg" alt="">
+                    </div>
                 </div>
-                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
-                    <img src="images/Frame (3).svg" alt="">
+                <div class="nav-title">
+                    <p class="-translate-y-1 hidden">About</p>
+                    <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                        <img src="images/Frame (3).svg" alt="">
+                    </div>
                 </div>
-                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
-                    <img src="images/Frame (4).svg" alt="">
+                <div class="nav-title">
+                    <p class="-translate-y-1 hidden">Profile</p>
+                    <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                        <img src="images/Frame (4).svg" alt="">
+                    </div>
                 </div>
-                <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
-                    <img src="images/Frame (5).svg" alt="">
+                <div class="nav-title">
+                    <p class="-translate-y-1 hidden">Others</p>
+                    <div class="bg-[#0307121A] border rounded-full h-14 w-14 flex justify-center items-center">
+                        <img src="images/Frame (5).svg" alt="">
+                    </div>
                 </div>
                 <button class="btn bg-[#797DFC] rounded-[3rem] px-10 text-[white]">Sign In</button>
             </div>
@@ -78,7 +90,7 @@
             <div id="card-section" class="space-y-6">
              </div>
              <!-- card title -->
-             <div class="p-6 bg-[#12132D0D] w-[25rem] rounded-3xl h-1/2 space-y-5">
+             <div id="card-title" class="p-6 bg-[#12132D0D] w-[25rem] rounded-3xl h-1/2 space-y-5">
                 <div class="flex justify-between">
                     <h3 class="text-xl text-[#12132D] font-bold">Title</h3>
                     <div class="flex gap-2">
@@ -116,30 +128,8 @@
                 <p class="text-base text-[#12132D99] font-normal">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
             </div>
             <!-- cards section -->
-             <div class="mt-12">
+             <div id="letest-card" class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- card -->
-                <div class="card  w-96 border">
-                    <figure>
-                      <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes" />
-                    </figure>
-                    <div class="space-y-3 text-start p-6">
-                    <div class="flex gap-1 mt-4">
-                        <img class="w-6 h-6" src="images/date.svg" alt="">
-                        <p class="text-sm font-normal text-[#12132D99]">29 January 2024</p>
-                    </div>
-                      <h2 class="text-xl text-[#12132D] font-bold">What will a mars habitat force that impact in our daily life!!!</h2>
-                      <p class="text-base font-normal text-[#12132D99]">What will a mars habitat force that impact in our daily life!!!</p>
-                      <div class="flex gap-1">
-                        <img class="w-11 h-11" src="images/man.svg" alt="">
-                        <div class="">
-                            <h3 class="text-base text-[#12132D] font-bold">Cameron Williamson</h3>
-                            <p class="text-base font-normal text-[#12132D99]">Unknown</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
              </div>
           </section>
     </main>
